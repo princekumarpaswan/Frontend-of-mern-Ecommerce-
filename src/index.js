@@ -8,9 +8,9 @@ import { positions, transitions, Provider as AlertProvider } from "react-alert";
 import AlertTemplate from 'react-alert-template-basic';
 import axios from 'axios';
 
+axios.defaults.baseURL = "http://localhost:4000"
+axios.defaults.withCredentials = true;
 
-// axios.defaults.baseURL = process.env.REACT_APP_BACKEND_API;
-// console.log(process.env.REACT_APP_BACKEND_API);
 
 const options = {
   timeout: 5000,
