@@ -5,6 +5,7 @@ import ProductDetails from "./component/product/ProductDetails"
 import Header from './component/layout/header/Header';
 import Footer from './component/layout/footer/footer';
 import ProductsMain from './component/product/Product';
+
 import Search from "../src/component/product/Search";
 import LoginSignUp from './component/user/LoginSignUp';
 import store from "./store";
